@@ -1,0 +1,37 @@
+/*
+ * Exatos Planejados: based on the "classico" preset, with the forest green
+ * of the logo (#263a1f) and brass from the hardware in the project photos.
+ * seo.fontsUrl and seo.themeColor in site.js follow this file.
+ */
+:root {
+  /* Dark surfaces: header, hero shade, app section, footer, overlays. */
+  --dark: #263a1f;
+  --dark-rgb: 38 58 31;
+  --dark-2: #31492a;
+
+  /* Light surfaces. */
+  --base: #f8f7f2;      /* main page background */
+  --surface: #ecece4;   /* alternating sections, icon boxes */
+  --line: #d8d9cd;
+
+  /* Text. */
+  --text: #1c2219;
+  --muted: #5a6356;
+  --neutral: #56624f;   /* icons and small neutral details */
+  --neutral-rgb: 86 98 79;
+  --on-dark: #f4f2ea;
+  --on-dark-rgb: 244 242 234;
+  --on-dark-muted: rgb(var(--on-dark-rgb) / 0.68);
+  --on-dark-line: rgb(var(--on-dark-rgb) / 0.12);
+
+  /* Brand accents: --accent on light backgrounds, --accent-light on dark ones. */
+  --accent: #3d6330;
+  --accent-rgb: 61 99 48;
+  --accent-light: #d4b47a;
+  --accent-light-rgb: 212 180 122;
+
+  /* Type and shape. */
+  --font-display: 'Josefin Sans', 'Futura', system-ui, sans-serif;
+  --font-body: 'Jost', system-ui, sans-serif;
+  --radius: 6px;
+}
