@@ -186,8 +186,8 @@ export const heroSlides = [
   },
   { src: "/gallery/exato-04.jpg", alt: "Cozinha planejada com ilha de pedra" },
   {
-    src: "/gallery/exato-03.jpg",
-    alt: "Sala com painel ripado e estante planejada",
+    src: "/gallery/logo_exato.png",
+    alt: "Logo Exatos Planejados",
   },
 ];
 
