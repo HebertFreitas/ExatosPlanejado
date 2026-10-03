@@ -98,7 +98,7 @@
 .burger.is-open span:first-child { top: 21px; transform: rotate(45deg); }
 .burger.is-open span:last-child { top: 21px; transform: rotate(-45deg); }
 
-.mobile-menu { position: fixed; inset: 0; z-index: 45; background: rgb(var(--dark-rgb) / 0.97); backdrop-filter: blur(16px); display: flex; align-items: center; }
+.mobile-menu { position: fixed; inset: 0; z-index: 45; background: rgb(var(--dark-rgb) / 0.97); backdrop-filter: blur(16px); display: flex; align-items: flex-start; overflow-y: auto; }
 .mobile-menu nav { width: 100%; padding: calc(var(--header-h) + 16px) 24px 40px; display: flex; flex-direction: column; }
 .mobile-menu a { font-family: var(--font-display); font-size: clamp(28px, 7vw, 40px); color: var(--on-dark); text-decoration: none; padding: 16px 0; border-bottom: 1px solid var(--on-dark-line); }
 
